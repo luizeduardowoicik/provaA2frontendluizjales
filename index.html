@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Auto-Peças Guimarães</title>
+    <link rel="icon" type="imagem/png" href="./img/carrodoheader.png"/>
+    <link rel="stylesheet" href=".\css\html5reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href=".\css\formatacoes.css">
+</head>
+<body>
+    <header>
+        <img src="./img/LogoUnitins.png" alt="Carro do header" class="carrodoheader">
+        <ul class="listaheader">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="quemsou.html">Quem somos?</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>
+            Trabalho Pratico HTML + CSS + JS dos estudantes Jales Lima e Luiz Eduardo
+        </h1>
+        <P class="principaltexto">
+            Este site está sendo desenvolvido como trabalho prático da disciplina de Desenvolvimento Front-end,
+             na Unitins, no curso de Sistemas de Informação, utilizando as tecnologias que aprendemos até agora.
+        </P>
+        <br>
+        <P class="principaltexto">
+            Bem vindo a auto-peças Guimarães, a primeira em exelência de serviços com anos 
+            de experiencia damos a melhor assistência tecnica do pais tendo afiliadas em todo mundo. 
+            A seguir vem alguns exemplos de carros que temos peças no <i>stock</i> :
+        </P>
+        <br>
+        <div class="box">
+            <div class="slideshowbox">
+                <div class="imagensbox fade">
+                    <img src="./img/FiatFastBack.png" alt="FiatFastBack" style="width: 100%">
+                </div>
+                <div class="imagensbox fade">
+                    <img src="./img/fiatpulse-frontal.png" alt="fiatpulse-frontal" style="width: 100%">
+                </div>
+                <div class="imagensbox fade">
+                    <img src="./img/peugeotfoto.jpg" alt="peugeot" style="width: 100%">
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="botoes">
+                <span class="botao" onclick="currentSlide(1)"></span>
+                <span class="botao" onclick="currentSlide(2)"></span>
+                <span class="botao" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerbox">
+            <div class="footerDesenvolvedores">
+                <h2>Desenvolvido por:</h2>
+                <p>Luiz Eduardo Woicik</p>
+                <p>Jales Lima da Silveira Júnior</p>
+                <p>Na disciplina de <a href="https://www.unitins.br/PortalAluno/Account/Login?ReturnUrl=%2fPortalAluno">Desenvolvimento Front-End</a></p>
+                <p>07/12/2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./javascript/script.js"></script>
+</html>

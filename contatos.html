@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Auto-Peças Guimarães</title>
+    <link rel="icon" type="imagem/png" href="./img/carrodoheader.png"/>
+    <link rel="stylesheet" href=".\css\html5reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href=".\css\formatacoes.css">
+</head>
+<body>
+    <header>
+        <img src="./img/LogoUnitins.png" alt="Carro do header" class="carrodoheader">
+        <ul class="listaheader">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="quemsou.html">Quem somos?</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </header>
+    <h1>Formulário de Contato</h1>
+    <br>
+    <fieldset class="formulario">
+        <label for="inputNome">Nome:</label>
+        <input type="text" id="inputNome" required>
+        <br>
+        <label for="inputEmail">Email:</label>
+        <input type="email" id="inputEmail" required>
+        <br>
+        <label for="inputTelefone">Telefone:</label>
+        <input type="tel" name="" id="inputTelefone">
+        <br>
+        <label for="inputCidade">Escolha a cidade:</label>
+        <select name="" id="inputCidade">
+            <option>Palmas</option>
+            <option>Pedro Afonso</option>
+            <option>Gurupi</option>
+            <option>Araguaina</option>
+            <option>Porto Nacional</option>
+        </select>
+        <br>
+        <label for="inputEstado">Escolha o estado:</label>
+        <select id="inputEstado">
+            <option>Tocantins</option>
+            <option>Acre</option>
+            <option>Rio de Janeiro</option>
+        </select>
+        <br>
+        <label for="inputIdade">Idade:</label>
+        <input type="number" id="inputIdade">
+        <br>
+        <label for="inputSexo">Sexo:</label>
+        <input type="radio" name="sexo" id="sexoMasculino" required>
+        <label for="sexoMasculino">Masculino</label>
+        <input type="radio" name="sexo" id="sexoFeminino" required>
+        <label for="sexoFeminino">Feminino</label>
+        <br>
+        <label for="inputMotivotxt">Escolha o motivo:</label>
+        <select id="inputMotivo" required>
+            <option>Duvida</option>
+            <option>Elogio</option>
+            <option>Outros</option>
+        </select>
+        <input type="text" id="inputMotivotxt" required>
+        <button class="botaoEnviar">Enviar</button>
+    </fieldset>
+    <footer>
+        <div class="footerbox">
+            <div class="footerDesenvolvedores">
+                <h2>Desenvolvido por:</h2>
+                <p>Luiz Eduardo Woicik</p>
+                <p>Jales Lima da Silveira Júnior</p>
+                <p>Na disciplina de <a href="https://www.unitins.br/PortalAluno/Account/Login?ReturnUrl=%2fPortalAluno">Desenvolvimento Front-End</a></p>
+                <p>07/12/2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
